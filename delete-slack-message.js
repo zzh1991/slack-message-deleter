@@ -41,7 +41,7 @@ const getMessageList = async(channel) => {
 
 const deleteMessage = async(channel, message) => {
   try {
-    await sleep.msleep(100);
+    await sleep.msleep(600);
     await axios.get(getDeleteApiUrl(channel).concat(message), {
       timeout: 5000,
     });

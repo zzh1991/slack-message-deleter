@@ -31,7 +31,7 @@ yarn
 node delete-slack-message.js
 ```
 
-- delete a message per 100 ms to throttle the Slack API usage to avoid request failed(You could change the frequency)
+- delete a message per 600 ms to throttle the Slack API usage to avoid request failed(You could change the frequency)
 
 ## Author
 
