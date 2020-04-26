@@ -1,0 +1,17 @@
+{
+  "name": "slack-message-deleter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "delete-slack-message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "sleep": "^6.1.0"
+  }
+}
