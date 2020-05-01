@@ -2,6 +2,12 @@
 
 > Free slack account only could has 10000 messages, so it needed to delete unused messages frequently. So this tool apprears.
 
+## Install node modules
+
+```bash
+yarn
+```
+
 ## Configure .env
 
 ### how to generate token
@@ -34,12 +40,6 @@ CHANNEL_ID=
 
 ```bash
 node get-channel-list.js
-```
-
-### Install node modules
-
-```bash
-yarn
 ```
 
 ## 🚀 Delete Slack Message
