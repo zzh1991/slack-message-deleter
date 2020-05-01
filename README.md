@@ -4,6 +4,19 @@
 
 ## Configure .env
 
+### how to generate token
+
+> install APP to generate token
+
+#### scopes
+
+1. channels.history
+2. channels.read
+3. groups.read
+4. im.read
+5. mpim.read
+6. users.read
+
 ### 1. rename `.env-example` to `.env`
 
 ### 2. generate a token from slack
@@ -15,6 +28,12 @@
 ```bash
 TOKEN=
 CHANNEL_ID=
+```
+
+### 4. how to get channel id
+
+```bash
+node get-channel-list.js
 ```
 
 ### Install node modules
